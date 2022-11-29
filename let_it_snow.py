@@ -22,8 +22,8 @@ def main(speed=0, bg_color="grey"):
         pos = [np.random.randint(-300, 300), np.random.randint(-300, 300)]
 
         # choosing a random color from the color palette
-        ran_i = np.random.randint(1, 10)
-        myTurtle.pencolor(color_palette[ran_i])
+        random_i = np.random.randint(1, 10)
+        myTurtle.pencolor(color_palette[random_i])
 
         # Go to the start position of the snowflake
         myTurtle.penup()
