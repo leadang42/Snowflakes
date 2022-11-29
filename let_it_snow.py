@@ -12,14 +12,10 @@ def main(speed=0, bg_color="grey"):
     # change background color
     turtle_screen.bgcolor(bg_color)
 
-
-
     for _ in range(10):
         # define some params
         size = 18
         pos = [np.random.randint(-300, 300), np.random.randint(-300, 300)]
-
-       
 
         # Go to the start position of the snowflake
         myTurtle.penup()
