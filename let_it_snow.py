@@ -12,18 +12,14 @@ def main(speed=0, bg_color="grey"):
     # change background color
     turtle_screen.bgcolor(bg_color)
 
-    # colors for drawing the snowflakes
-    color_palette = ["light steel blue", "royal blue", "midnight blue", "powder blue", "steel blue",
-                     "azure", "pale turquoise", "cadet blue", "light sea green", "medium turquoise"]
+
 
     for _ in range(10):
         # define some params
         size = 18
         pos = [np.random.randint(-300, 300), np.random.randint(-300, 300)]
 
-        # choosing a random color from the color palette
-        random_i = np.random.randint(1, 10)
-        myTurtle.pencolor(color_palette[random_i])
+       
 
         # Go to the start position of the snowflake
         myTurtle.penup()
