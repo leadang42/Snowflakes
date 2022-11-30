@@ -1,3 +1,4 @@
 import snowflake
 
-snowflake.let_it_snow.main(3, "black")
+snowflake.let_it_snow.main(bg_color="pale goldenrod")
+
